@@ -3,7 +3,6 @@ import Cookies from "js-cookie"
 import {withNavigation} from "../withNavigation"
 import {signInWithEmailAndPassword,createUserWithEmailAndPassword} from "firebase/auth"
 import {db,auth} from "../../entitles/Firebase"
-import {Navigate} from "react-router-dom"
 import { registerVersion } from "firebase/app"
 import "./index.css"
 import { doc, getDoc } from "firebase/firestore"
@@ -133,7 +132,9 @@ const password="jjpradip7@gmail.com"
 }
 
 onSubmitForm=async(e)=>{
+
     
+
     e.preventDefault()
 
 console.log(e)
@@ -187,7 +188,14 @@ if(email==="jjpradip7@gmail.com"&&password==="JJpradip@37"){
 
     console.log("success")
 
-this.loginAdmin(email,password)
+await this.loginAdmin(email,password)
+
+
+
+this.props.navigate("/")
+
+
+
 
 }
 
@@ -209,8 +217,11 @@ else{
 
  const token = await userCredential.user.getIdToken()
  console.log(token)
-this.props.navigate("/")
-    console.log("Login Success", userCredential.user)
+
+
+ this.props.navigate("/")
+
+ console.log("Login Success", userCredential.user)
 
 
   }catch(error){

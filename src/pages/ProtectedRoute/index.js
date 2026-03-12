@@ -12,7 +12,7 @@ console.log(jwt)
 if(jwt===undefined){
 
 
-return <Navigate to="/login"/>
+return children
 
 }
 else{
