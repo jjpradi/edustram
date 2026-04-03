@@ -22,8 +22,26 @@ color:blue;
 .nav-item:third-child{
 color:green;
 
+flex-basis:auto;
 
 
+}
+
+.fixed{
+
+    position: sticky;
+    
+    bottom: 0;
+    
+    width: 200px;
+    
+    background-color: #f0f0f0;
+    
+    padding: 10px;
+
+    text-align: center;
+    
+    border-top: 1px solid #ccc;
 
 }
 

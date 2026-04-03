@@ -23,7 +23,13 @@ const Enrollment=()=>{
 
 <h1>Fees Collection</h1>
 
+<div className="div">
 
+<p>Total Fees Collected: $500,000</p>
+
+
+
+</div>
 
 
 

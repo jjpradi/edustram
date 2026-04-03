@@ -10,12 +10,16 @@ h1{
 
 }
 
-div{
+
+.div{
+
+    background-color: black;
+    position:absolute;
+
+    height: 30vh;
 
 
-background:radial-gradient(circle,blue,red,violet)
 
 }
-
 
 

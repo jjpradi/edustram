@@ -32,7 +32,7 @@ const Sidebar = () => {
 
                     <img width="48" height="48" src="https://img.icons8.com/color/48/dashboard--v1.png" alt="dashboard--v1" />
 
-                    <h3 style={{ color: "purple" }}>Edu Stream</h3>
+                    <h3    style={{ color: "purple" }}>Edu Stream</h3>
 
 
 
@@ -122,15 +122,10 @@ const Sidebar = () => {
 
 
             <div>
-                <li>
+    
+                <li   className="fixed" onClick={onLogout} >
 
-                    <NavLink>
-                        Settings
-                    </NavLink>
-                </li>
-                <li onClick={onLogout} >
-
-                    <NavLink>
+                    <NavLink  >
                         Logout
                     </NavLink>
 
