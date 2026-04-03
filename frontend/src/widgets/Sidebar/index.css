@@ -26,7 +26,19 @@ flex-basis:auto;
 
 
 }
+li:hover{
 
+    background-color: purple;
+transition: all 0.7s ease-in-out    ;
+
+
+}
+.Dashboard:hover{
+transform:scale(1.1) rotate(30deg);
+background-color: purple;
+transition: all 0.7s ease-in-out    ;
+
+}
 .fixed{
 
     position: sticky;
