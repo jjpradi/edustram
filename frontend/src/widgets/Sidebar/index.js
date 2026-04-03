@@ -39,6 +39,10 @@ const Sidebar = () => {
 
 
                 </div>
+
+                <nav>
+
+                    <ul>
                 <li>
 
                     <NavLink to="/login">
@@ -112,7 +116,8 @@ const Sidebar = () => {
                     </NavLink>
 
                 </li>
-
+                </ul>
+</nav>
             </div>
 
 

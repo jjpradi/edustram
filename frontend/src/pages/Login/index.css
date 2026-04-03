@@ -1,5 +1,11 @@
 
+.login-page:before{
 
+
+    content:"Welcome to EduStream";
+    font-size: 33px;
+    font-weight: bold;  
+}
 
 .login-page{
 
@@ -12,6 +18,42 @@ align-items: center;
 height: 100vh;
 
 
+}
+
+.input:hover{
+    background-color: lightblue;
+
+
+
+}
+
+
+.input{
+
+border-radius: 33px;
+    padding: 10px;
+    width: 50%;
+
+    box-sizing: content-box;
+}
+
+[id="password"]{
+border-radius: 33px;
+    padding: 10px;
+    width: 50%;
+}
+
+
+
+.btn:hover{background-color: tomato;
+color: white;
+
+}
+
+
+.btn:active{
+
+    width: 150%;
 }
 
 .login-card{

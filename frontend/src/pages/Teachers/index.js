@@ -26,7 +26,7 @@ getTeachers()
 
 
         <div    className="teachers-list">
-<table    >
+<table    style={{width: "100%" }}  >
 
 
 <thead>

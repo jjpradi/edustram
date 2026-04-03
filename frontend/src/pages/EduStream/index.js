@@ -55,15 +55,17 @@ getList()
 return (
 
 
-   <div   className="home-page">  
+   <div 
+   
+   
+   
+   className="home-page">  
 
 
 
 
 
 
-
-<div>
 
 
 <h1>Administrative Overview</h1>
@@ -77,18 +79,19 @@ return (
 
 
 
-
+<div>
 <p>Performance Trends</p>
 
 
 
 
 <Rechart  stuList={list}  /> 
-
-
+</div>
+<div   >
 <p>Average Attendance Rate</p>
 
 <Attendance    attendance={attend} />
+</div>
 
 </div>
 
@@ -99,7 +102,6 @@ return (
 
 
 
-</div>
 
 )
 

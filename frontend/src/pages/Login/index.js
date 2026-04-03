@@ -314,7 +314,7 @@ return(
 
 <div    > 
 <label  htmlFor="username" >USERNAME</label>
-<input  id="username"  type="text"   value={email}  onChange={this.onName}  />
+<input   className="input"  id="username"  type="text"   value={email}  onChange={this.onName}  />
 
 
 
@@ -327,7 +327,7 @@ return(
 <div>
 <label  htmlFor="password"  >PASSWORD</label>
 
-<input  id="password"  type="password"   value={password}  onChange={this.onPassword}  />
+<input   className="input"  id="password"  type="password"   value={password}  onChange={this.onPassword}  />
 
 
 
@@ -336,7 +336,7 @@ return(
 
 </div>
 
-<button  type="submit"   >Login</button>
+<button className="btn"  type="submit"   >Login</button>
 
 </form>
 

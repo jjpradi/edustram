@@ -25,7 +25,7 @@ const App=()=>{
 
 
 
-<Sidebar />
+<Sidebar  style={{backgroundColor:"lightgray", minWidth:"30vw"}}   />
 
 
 
